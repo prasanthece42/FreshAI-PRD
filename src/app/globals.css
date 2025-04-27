@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -23,4 +26,35 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* globals.css */
+
+.nav-logo {
+  /* Preserve your existing gradient text */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* Glow shadows */
+  text-shadow:
+    0 0 4px rgba(34, 211, 238, 0.8),
+    0 0 8px rgba(34, 211, 238, 0.6),
+    0 0 16px rgba(34, 211, 238, 0.4);
+  /* Animate between softer and stronger glow */
+  animation: pulseGlow 2s infinite alternate;
+}
+
+@keyframes pulseGlow {
+  from {
+    text-shadow:
+      0 0 4px rgba(34, 211, 238, 0.6),
+      0 0 8px rgba(34, 211, 238, 0.4),
+      0 0 12px rgba(34, 211, 238, 0.2);
+  }
+  to {
+    text-shadow:
+      0 0 8px rgba(34, 211, 238, 1),
+      0 0 16px rgba(34, 211, 238, 0.8),
+      0 0 24px rgba(34, 211, 238, 0.6);
+  }
 }
