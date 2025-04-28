@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { UserPlus } from 'lucide-react'
 import { supabase } from '@/lib/supabase'
 
-export default function JoinWaitlist() {
+export default function JoinWaitList() {
   const [isMobile, setIsMobile] = useState(false)
   const [email, setEmail] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
