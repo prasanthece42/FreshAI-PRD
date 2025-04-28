@@ -9,6 +9,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import HowItWorks from "../components/HowItWorks";
 import Pricing from "../components/Pricing";
+
 import JoinWaitlist from "../components/JoinWaitlist";
 import ContactUs from "@/components/ContactUs";
 import FaqSection from "@/components/FaqSection";
