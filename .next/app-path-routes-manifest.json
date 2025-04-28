@@ -1,16 +1,15 @@
 {
-  "/api/check-email/route": "/api/check-email",
   "/api/reset-password/route": "/api/reset-password",
   "/_not-found/page": "/_not-found",
   "/api/send-waitlist-email/route": "/api/send-waitlist-email",
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
-  "/about/page": "/about",
   "/dashboard/page": "/dashboard",
-  "/reset-password/page": "/reset-password",
-  "/privacy/page": "/privacy",
+  "/about/page": "/about",
   "/signin/page": "/signin",
-  "/terms/page": "/terms",
+  "/privacy/page": "/privacy",
+  "/signup/page": "/signup",
   "/welcome/page": "/welcome",
-  "/signup/page": "/signup"
+  "/terms/page": "/terms",
+  "/reset-password/page": "/reset-password"
 }
