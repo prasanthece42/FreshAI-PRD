@@ -1,0 +1,16 @@
+{
+  "/api/reset-password/route": "/api/reset-password",
+  "/_not-found/page": "/_not-found",
+  "/api/check-email/route": "/api/check-email",
+  "/api/send-waitlist-email/route": "/api/send-waitlist-email",
+  "/favicon.ico/route": "/favicon.ico",
+  "/about/page": "/about",
+  "/privacy/page": "/privacy",
+  "/dashboard/page": "/dashboard",
+  "/reset-password/page": "/reset-password",
+  "/terms/page": "/terms",
+  "/signup/page": "/signup",
+  "/page": "/",
+  "/welcome/page": "/welcome",
+  "/signin/page": "/signin"
+}
