@@ -1,16 +1,16 @@
 {
+  "/api/check-email/route": "app/api/check-email/route.js",
   "/api/reset-password/route": "app/api/reset-password/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/api/check-email/route": "app/api/check-email/route.js",
   "/api/send-waitlist-email/route": "app/api/send-waitlist-email/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
   "/about/page": "app/about/page.js",
-  "/privacy/page": "app/privacy/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/reset-password/page": "app/reset-password/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/signin/page": "app/signin/page.js",
   "/terms/page": "app/terms/page.js",
-  "/signup/page": "app/signup/page.js",
-  "/page": "app/page.js",
   "/welcome/page": "app/welcome/page.js",
-  "/signin/page": "app/signin/page.js"
+  "/signup/page": "app/signup/page.js"
 }
