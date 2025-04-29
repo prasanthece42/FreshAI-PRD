@@ -7,17 +7,17 @@ const plans = [
   {
     title: 'Free',
     price: '$0/month',
-    features: ['1 AI assistant', '50 messages/month', 'Basic analytics'],
+    features: ['1 AI assistant', '1000 messages/month', 'Basic analytics'],
   },
   {
     title: 'Starter',
     price: '$29/month',
-    features: ['3 AI assistants', '1,000 messages/month', 'CRM integration', 'Email support'],
+    features: ['3 AI assistants', '8,000 messages/month', 'CRM integration', 'Email support'],
   },
   {
     title: 'Pro',
     price: '$79/month',
-    features: ['10 AI assistants', '10,000 messages/month', 'All integrations', 'Priority support'],
+    features: ['10 AI assistants', '15,000 messages/month', 'All integrations', 'Priority support'],
   },
 ];
 
@@ -92,11 +92,11 @@ export default function Pricing() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
-                className={`lg:block hidden bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all ${
+                className={`lg:block hidden bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform ${
                   selectedPlan === plan ? 'scale-105 shadow-2xl' : 'scale-100'
-                }`}
+                } border-2 border-transparent hover:border-[#6246ea] hover:shadow-xl hover:ring-4 hover:ring-[#6246ea] hover:ring-opacity-50`}
                 onClick={() => handleClick(plan)}
-                whileHover={{ y: -10, scale: 1.02 }}
+                whileHover={{ scale: 1.05, y: -5 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <div className="flex justify-between items-center">
@@ -134,13 +134,18 @@ export default function Pricing() {
 
             {/* For smaller screens */}
             {plans.map((plan, index) => (
-              <div
+              <motion.div
                 key={index}
-                className={`lg:hidden block bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all ${
-                  selectedPlan === plan ? 'scale-105 shadow-2xl' : ''
-                }`}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.2 }}
+                className={`lg:hidden block bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform ${
+                  selectedPlan === plan ? 'scale-105 shadow-2xl' : 'scale-100'
+                } border-2 border-transparent hover:border-[#6246ea] hover:shadow-xl hover:ring-4 hover:ring-[#6246ea] hover:ring-opacity-50`}
                 onClick={() => handleClick(plan)}
                 style={{ transform: 'translateY(-10px)' }}
+                whileHover={{ scale: 1.05, y: -5 }}
+                whileTap={{ scale: 0.95 }}
               >
                 <div className="flex justify-between items-center">
                   <h3 className="text-2xl font-semibold text-gray-800">{plan.title}</h3>
@@ -172,7 +177,7 @@ export default function Pricing() {
                     {plan.title === 'Free' ? 'Start for Free' : 'Choose Plan'}
                   </a>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
