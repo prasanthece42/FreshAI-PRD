@@ -81,9 +81,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
-          className="mt-6 text-lg md:text-xl text-gray-600"
+          className="mt-6 text-lg md:text-xl text-gray-900"
         >
-          Respond to users on social platforms, send payment links, manage contacts, launch promotions, and get sales insights — with AI that learns from you.
+          Respond to users on social platforms, generate leads effortlessly, create eye-catching posters, manage your contacts, and gain valuable sales insights— all with AI that adapts to your business needs!
         </motion.p>
 
         <motion.a
