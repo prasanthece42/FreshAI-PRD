@@ -5,32 +5,53 @@ import { CheckCircle, BrainCircuit, Send, BarChart3 } from 'lucide-react'
 
 const steps = [
   {
-    title: 'Connect Your Channels',
-    short: 'Link your social accounts & CRM in seconds.',
+    title: 'Tell Us About Your Business',
+    short: 'Add your product, audience, and goals.',
     detail:
-      'Effortlessly integrate Instagram, WhatsApp, email, and more. Connect your CRM to manage leads and conversations all in one place.',
+      'Start by sharing what your business offers, who you serve, and where you want to grow (Instagram, WhatsApp, LinkedIn, etc.). This fuels everything FreshAI does.',
     icon: CheckCircle,
   },
   {
-    title: 'Train Your AI',
-    short: 'Teach it using your website, PDFs, or FAQs.',
+    title: 'Connect Your Channels',
+    short: 'Link Instagram, WhatsApp, Gmail, and CRM.',
     detail:
-      'Upload docs or share your site link. Your AI learns from your tone, FAQs, and brand style — adapting responses just like your team would.',
+      'Seamlessly connect social accounts, email, and your CRM. FreshAI unifies your communication for smarter automation and better lead tracking.',
+    icon: CheckCircle,
+  },
+  {
+    title: 'Train Your AI Assistant',
+    short: 'Use your website, PDFs, or FAQs.',
+    detail:
+      'FreshAI learns your brand voice from your content. Upload documents or link your website to teach it how to respond just like your team would.',
     icon: BrainCircuit,
   },
   {
-    title: 'Automate Engagement',
-    short: 'Let AI handle queries, send links & book appointments.',
+    title: 'FreshAI Builds Your Growth Plan',
+    short: 'Instantly generate a custom strategy.',
     detail:
-      'Your assistant replies instantly to inquiries, shares payment links, captures lead info, and even helps customers book services in real time.',
+      'Get personalized social content, outreach messages, ad ideas, and marketing materials—done for you and based on real data.',
+    icon: BrainCircuit,
+  },
+  {
+    title: 'Launch & Automate Engagement',
+    short: 'Auto-replies, DMs, bookings & payments.',
+    detail:
+      'Your AI assistant starts replying to messages, sharing links, capturing leads, and booking appointments—across Instagram, WhatsApp, LinkedIn, Gmail, and more.',
     icon: Send,
   },
   {
-    title: 'Track & Optimize',
-    short: 'Get insights, analytics & campaign feedback.',
+    title: 'Track Results & Optimize',
+    short: 'Your performance dashboard, simplified.',
     detail:
-      'Monitor user queries, lead funnels, and AI performance. Use these insights to fine-tune responses, run A/B tests, and improve conversions.',
+      'View all conversations, leads, clicks, and replies in one dashboard. FreshAI highlights what’s working and where to double down for faster growth.',
     icon: BarChart3,
+  },
+  {
+    title: 'Grow Without Guesswork',
+    short: 'Turn traffic into leads and sales.',
+    detail:
+      'From zero followers to daily traffic and conversions—FreshAI delivers consistent, intelligent growth without manual effort.',
+    icon: CheckCircle,
   },
 ]
 

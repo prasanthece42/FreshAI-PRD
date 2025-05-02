@@ -8,33 +8,37 @@ import {
   Image,
   Contact,
   BarChart3,
+  TrendingUp,
+  MessageCircle,
+  Tool,
+  Package,
 } from 'lucide-react';
 
 const features = [
   {
     icon: <Bot size={22} />,
     title: 'AI Social Media Assistant',
-    desc: 'Train your AI to respond like a human on social media platforms, engaging with users in a natural and conversational manner.',
+    desc: 'Engage on platforms like a pro. Respond like a human across social platforms, auto-post to Reddit & Facebook Groups, generate content, and schedule posts.',
   },
   {
     icon: <Users size={22} />,
-    title: 'Lead Generation',
-    desc: 'Automate the process of capturing leads through forms, chatbots, and integrations, helping you build and nurture a steady stream of potential customers.',
+    title: 'Automated Lead Generation & Outreach',
+    desc: 'Reach the right people at the right time. AI-powered cold outreach via Gmail, LinkedIn, WhatsApp, or Instagram, with personalized messages and automated follow-ups.',
   },
   {
     icon: <Image size={22} />,
-    title: 'Poster Creation for Social Media',
-    desc: 'Create visually appealing social media posters quickly and easily with AI-generated templates, ideal for promotional campaigns.',
+    title: 'AI-Powered Content & Poster Creation',
+    desc: 'Create scroll-stopping visuals and listings in seconds. Generate optimized posters for social media and ads, with custom AI ad copy and low-budget ad creation tools.',
   },
   {
     icon: <Contact size={22} />,
-    title: 'Lightweight CRM for Contact Management',
-    desc: 'Manage your contacts, track communications, and stay organized with a simple and intuitive CRM system integrated into the platform.',
+    title: 'Lightweight CRM & Smart Dashboard',
+    desc: 'Track every lead and interaction in one place. Manage contacts, communications, and campaigns with a central dashboard that integrates with Google My Business and reviews.',
   },
   {
     icon: <BarChart3 size={22} />,
-    title: 'Sales Analytics',
-    desc: 'Gain actionable insights into your sales performance, track conversions, and identify trends that can optimize your sales strategies.',
+    title: 'Sales Analytics & Growth Insights',
+    desc: 'Know what’s working. Track conversions, outreach success, and traffic. Use AI insights to optimize campaigns and set up referral tracking.',
   },
 ];
 

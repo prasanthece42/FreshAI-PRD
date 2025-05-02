@@ -5,21 +5,41 @@ import Head from 'next/head';
 
 const plans = [
   {
-    title: 'Free',
+    title: 'Launch',
     price: '$0/month',
-    features: ['1 AI assistant', '1000 messages/month', 'Basic analytics'],
+    features: [
+      '1 AI Assistant',
+      'Auto-posting to Instagram or Facebook',
+      'Up to 500 messages/month',
+      'Basic performance dashboard',
+    ],
   },
   {
-    title: 'Starter',
+    title: 'Growth',
     price: '$29/month',
-    features: ['3 AI assistants', '8,000 messages/month', 'CRM integration', 'Email support'],
+    features: [
+      '3 AI Assistants',
+      'Multi-platform automation (Instagram, WhatsApp, Gmail)',
+      '8,000 messages/month',
+      'Outreach campaign builder',
+      'Lead tracking CRM',
+      'Email support',
+    ],
   },
   {
-    title: 'Pro',
+    title: 'Scale',
     price: '$79/month',
-    features: ['10 AI assistants', '15,000 messages/month', 'All integrations', 'Priority support'],
+    features: [
+      'Unlimited AI Assistants',
+      'All platform integrations (LinkedIn, Reddit, Gmail, more)',
+      '15,000+ messages/month',
+      'Growth dashboard with AI insights',
+      'Priority support',
+      'Done-for-you setup help',
+    ],
   },
 ];
+
 
 export default function Pricing() {
   const [selectedPlan, setSelectedPlan] = useState(null);

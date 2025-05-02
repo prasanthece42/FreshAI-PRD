@@ -31,6 +31,21 @@ const faqs = [
     answer:
       'Yes, FreshAI can help customers schedule appointments or make reservations through real-time conversation.',
   },
+  {
+    question: 'How does FreshAI generate leads?',
+    answer:
+      'FreshAI uses AI-powered cold outreach and form capture to find and qualify prospects. It scans business directories, Google Maps, and your specified audiences to build targeted lists, then sends personalized messages via email, LinkedIn, WhatsApp, or Instagram.',
+  },
+  {
+    question: 'Which platforms can I automate marketing on?',
+    answer:
+      'You can automate outreach and posting across Facebook, Instagram, LinkedIn, Reddit, WhatsApp, Gmail, and more. FreshAI unifies them in one dashboard so you never miss an opportunity.',
+  },
+  {
+    question: 'How does FreshAI optimize my ad campaigns?',
+    answer:
+      'FreshAI analyzes performance data—click-throughs, conversions, engagement rates—and suggests budget allocations, audience tweaks, and copy variations. Its low-budget ad tool helps you test ideas quickly and scale winning campaigns.',
+  },
 ]
 
 export default function FaqSection() {
